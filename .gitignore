@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# IDE
+.idea/
+*.sw?
+
+# Coverage
+coverage/
+
+# Optional: lock files if using only one package manager
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Images or uploads (optional, if dynamic)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.svg
+
+# Optional: generated folders in `.bolt` or custom tooling
+.bolt/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Optional: Tailwind JIT cache
+.tailwind-cache/
